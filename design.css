@@ -1,0 +1,121 @@
+html{
+    background-color: rgb(255, 255, 255);
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.test {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    font-size: 70%
+    
+}
+.überschrift {
+    position:relative;
+    right: 450px;
+}
+.logo {
+    position:absolute;
+    top:10%;
+    left: 650px;
+    color:rgb(255, 225, 149);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 500%;
+}
+.logo2 {
+    position:absolute;
+    top:10%;
+    left: 580px;
+    color:rgb(255, 225, 149);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 500%;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 80%;
+}
+hr{
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0),midnightblue,rgba(0,0,0,0));
+    
+}
+a{
+    text-decoration:none;
+    color:rgb(255, 136, 9);
+}
+h1{
+    font-size: medium;
+    text-align: center;
+
+}
+.bottom {
+    margin-bottom: 30px;
+}
+strong {
+    font-weight: bold;
+}
+footer{
+
+    text-align: center;
+    font-size: 70%;
+    margin-bottom: 20px;
+    
+}
+.ende{
+    margin-top: 30px;
+    clear:both;
+   
+    
+    
+}
+caption{
+    font-size: medium;
+    font-size: medium;
+
+}
+table{
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+td{
+    font-size: 70%;
+    font-weight: bold;
+}
+th{
+    font-size: 80%;
+}
+.rot{
+    background-color: red;
+    color:aliceblue
+}
+.rechts{
+    float:right;
+}
+.links{
+    float:left;
+}
+.buchung{
+    border-spacing: 20px 10px;
+    border-width: 10px;
+    border-color: white;
+    width: 400px
+}
